@@ -3,7 +3,7 @@
   <head>
     <title>SS Handlooms</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
     
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,600,700&display=swap" rel="stylesheet">
@@ -25,32 +25,73 @@
     
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
-    <link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/style.css">
+
+		 <!-- Link Swiper's CSS -->
+	
+		 <!-- Online Swiper CDN -->
+			 <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+		 <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+		<style>
+			html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+
+    .swiper-container {
+      width: 50%;
+      height: 500px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .swiper-slide {
+      background-size: cover;
+      background-position: center;
+    }
+
+    .gallery-top {
+      height: 700px;
+      width: 50%;
+    }
+
+    .gallery-thumbs {
+      height: 20%;
+      box-sizing: border-box;
+      padding: 10px 0;
+    }
+
+    .gallery-thumbs .swiper-slide {
+      width: 25%;
+      height: 100%;
+      opacity: 0.4;
+    }
+
+    .gallery-thumbs .swiper-slide-thumb-active {
+      opacity: 1;
+    }
+		.top-margin{
+			margin-top:100px; 
+		}
+		.bottom-margin{
+			margin-bottom: 100px;
+		}
+		@media only screen and (max-width: 600px){
+			.gallery-thumbs{
+				width:92%;
+			}
+			.gallery-top{
+				width:92%;
+				height:500px;
+			}
+		}
+		</style>
   </head>
   <body>
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-<<<<<<< HEAD
-			<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-				<div class="container">
-					<a class="navbar-brand" href="index.html">SS Handlooms</a>
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="oi oi-menu"></span> Menu
-					</button>
-	
-					<div class="collapse navbar-collapse" id="ftco-nav">
-						<ul class="navbar-nav ml-auto">
-							<li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-							<li class="nav-item"><a href="services.html" class="nav-link">Products</a></li>
-							<!--<li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>-->
-							<!-- <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-							<li class="nav-item"><a href="blog.html" class="nav-link">Portfolio</a></li>
-							<li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li> -->
-						</ul>
-					</div>
-				</div>
-			</nav>
-			<!-- END nav -->
-=======
 	    <div class="container">
 	      <a class="navbar-brand" href="index.html">SS Handlooms</a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,14 +100,17 @@
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-	        	<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+	        	<li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
 	        	<li class="nav-item"><a href="services.html" class="nav-link">Products</a></li>
+	        	<!--<li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>-->
+	        	<!-- <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+	        	<li class="nav-item"><a href="blog.html" class="nav-link">Portfolio</a></li>
+	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li> -->
 	        </ul>
 	      </div>
 	    </div>
 	  </nav>
     <!-- END nav -->
->>>>>>> 2eae5d18b5c349811a7906590c2734cc538f0b40
 
     <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg-1.jpg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
@@ -79,209 +123,367 @@
         </div>
       </div>
     </section>
-    
-    <section class="ftco-section ftco-no-pt ftco-no-pb">
-			<div class="container-fluid p-0">
-    		<div class="row no-gutters">
-    			<div class="col-md-6 col-lg-3 ftco-animate">
-    				<div class="project">
-	    				<img src="images/products/belt1.jpg" class="img-fluid" alt="Colorlib Template">
-	    				<div class="text">
-	    					<span>Stylist</span>
-	    					<h3><a href="project.html">Beard</a></h3>
-	    				</div>
-	    				<a href="images/products/belt1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-	    					<span class="icon-expand"></span>
-	    				</a>
-    				</div>
-    			</div>
-    			<div class="col-md-6 col-lg-3 ftco-animate">
-    				<div class="project">
-	    				<img src="images/products/belt1.jpg" class="img-fluid" alt="Colorlib Template">
-	    				<div class="text">
-	    					<span>Beauty</span>
-	    					<h3><a href="project.html">Haircut</a></h3>
-	    				</div>
-	    				<a href="images/products/belt1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-	    					<span class="icon-expand"></span>
-	    				</a>
-    				</div>
-    			</div>
-    			<div class="col-md-6 col-lg-3 ftco-animate">
-    				<div class="project">
-	    				<img src="images/products/belt1.jpg" class="img-fluid" alt="Colorlib Template">
-	    				<div class="text">
-	    					<span>Beauty</span>
-	    					<h3><a href="project.html">Hairstylist</a></h3>
-	    				</div>
-	    				<a href="images/products/belt1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-	    					<span class="icon-expand"></span>
-	    				</a>
-    				</div>
-    			</div>
-    			<div class="col-md-6 col-lg-3 ftco-animate">
-    				<div class="project">
-	    				<img src="images/products/belt1.jpg" class="img-fluid" alt="Colorlib Template">
-	    				<div class="text">
-	    					<span>Beauty</span>
-	    					<h3><a href="project.html">Haircut</a></h3>
-	    				</div>
-	    				<a href="images/products/belt1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-	    					<span class="icon-expand"></span>
-	    				</a>
-    				</div>
-    			</div>
-    			<div class="col-md-6 col-lg-3 ftco-animate">
-    				<div class="project">
-	    				<img src="images/products/belt1.jpg" class="img-fluid" alt="Colorlib Template">
-	    				<div class="text">
-	    					<span>Beauty</span>
-	    					<h3><a href="project.html">Makeup</a></h3>
-	    				</div>
-	    				<a href="images/products/belt1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-	    					<span class="icon-expand"></span>
-	    				</a>
-    				</div>
-    			</div>
-    			<div class="col-md-6 col-lg-3 ftco-animate">
-    				<div class="project">
-	    				<img src="images/products/belt1.jpg" class="img-fluid" alt="Colorlib Template">
-	    				<div class="text">
-	    					<span>Fashion</span>
-	    					<h3><a href="project.html">Model</a></h3>
-	    				</div>
-	    				<a href="images/products/belt1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-	    					<span class="icon-expand"></span>
-	    				</a>
-    				</div>
-    			</div>
-    			<div class="col-md-6 col-lg-3 ftco-animate">
-    				<div class="project">
-	    				<img src="images/products/belt1.jpg" class="img-fluid" alt="Colorlib Template">
-	    				<div class="text">
-	    					<span>Beauty</span>
-	    					<h3><a href="project.html">Makeup</a></h3>
-	    				</div>
-	    				<a href="images/work-7.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-	    					<span class="icon-expand"></span>
-	    				</a>
-    				</div>
-    			</div>
-    			<div class="col-md-6 col-lg-3 ftco-animate">
-    				<div class="project">
-	    				<img src="images/products/belt1.jpg" class="img-fluid" alt="Colorlib Template">
-	    				<div class="text">
-	    					<span>Beauty</span>
-	    					<h3><a href="project.html">Makeup</a></h3>
-	    				</div>
-	    				<a href="images/products/belt1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-	    					<span class="icon-expand"></span>
-	    				</a>
-    				</div>
-    			</div>
-    		</div>
-    	</div>
-</section>
+
+	
+		<div class="top-margin"></div>
+		<div class="swiper-container gallery-top ">
+				<div class="swiper-wrapper">
+					<div class="card swiper-slide" style="background-image:url(./images/products/bags/image2.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image3.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image4.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image5.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image6.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image7.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image8.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image9.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image10.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image11.jpeg)"></div>
+					<div class="card swiper-slide" style="background-image:url(./images/products/bags/image12.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image13.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image14.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image15.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image16.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image17.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image18.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image19.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image20.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image21.JPG)"></div>
+					<div class="card swiper-slide" style="background-image:url(./images/products/bags/image22.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image23.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image24.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image25.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image26.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image27.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image28.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image29.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image30.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image31.JPG)"></div>
+					<div class="card swiper-slide" style="background-image:url(./images/products/bags/image32.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image33.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image34.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image35.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image36.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image37.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image38.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image39.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image40.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image41.JPG)"></div>
+					<div class="card swiper-slide" style="background-image:url(./images/products/bags/image42.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image43.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image44.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image45.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image46.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image47.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image48.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image49.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image50.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image51.JPG)"></div>
+					<div class="card swiper-slide" style="background-image:url(./images/products/bags/image52.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image53.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image54.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image55.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image56.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image57.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image58.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image59.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image60.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image61.JPG)"></div>
+					<div class="card swiper-slide" style="background-image:url(./images/products/bags/image62.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image63.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image64.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image65.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image66.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image67.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image68.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image69.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image70.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image71.JPG)"></div>
+					<div class="card swiper-slide" style="background-image:url(./images/products/bags/image72.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image73.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image74.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image75.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image76.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image77.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image78.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image79.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image80.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image81.JPG)"></div>
+					<div class="card swiper-slide" style="background-image:url(./images/products/bags/image82.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image83.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image84.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image85.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image86.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image87.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image88.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image89.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image90.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image91.JPG)"></div>
+					<div class="card swiper-slide" style="background-image:url(./images/products/bags/image92.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image93.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image94.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image95.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image96.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image97.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image98.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image99.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image100.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image101.JPG)"></div>
+					<div class="card swiper-slide" style="background-image:url(./images/products/bags/image102.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image103.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image104.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image105.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image106.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image107.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image108.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image109.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image110.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image111.JPG)"></div>
+					<div class="card swiper-slide" style="background-image:url(./images/products/bags/image112.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image113.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image114.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image115.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image116.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image117.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image118.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image119.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image120.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image121.JPG)"></div>
+					<div class="card swiper-slide" style="background-image:url(./images/products/bags/image122.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image123.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image124.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image125.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image126.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image127.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image128.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image129.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image130.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image131.JPG)"></div>
+					<div class="card swiper-slide" style="background-image:url(./images/products/bags/image132.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image133.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image134.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image135.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image136.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image137.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image138.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image139.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image140.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image141.JPG)"></div>
+					<div class="card swiper-slide" style="background-image:url(./images/products/bags/image142.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image143.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image144.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image145.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image146.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image147.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image148.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image149.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image150.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image151.JPG)"></div>
+					<div class="card swiper-slide" style="background-image:url(./images/products/bags/image152.JPG)"></div>
 
 
-<<<<<<< HEAD
-		<footer class="ftco-footer ftco-section">
-			<div class="container">
-				<div class="row mb-3">
-				<div class="col-md">
-					<div class="ftco-footer-widget mb-4">
-					<center><h2 class="ftco-heading-2 logo">SS HANDLOOMS</h2>
-					<p><b>BETTER YET, SEE US IN PERSON!</b>
-						<br/>
-						When you pay us a visit, we present to you our entire catalog of designs and product ideas! Do give a call soon!
-					</p>
-					</div></center>
 				</div>
-				
-				<div class="col-md justify-content-center">
-					 <div class="ftco-footer-widget mb-4">
-					<center><h2 class="ftco-heading-2">Hours</h2>
-					<ul class="list-unstyled">
-						<li class="py-1 d-block">
-						Mon 09:00 am – 05:00 pm
-						</li>
-						<li class="py-1 d-block">Tue 09:00 am – 05:00 pm</li>
-						<li class="py-1 d-block">Wed 09:00 am – 05:00 pm</li>
-						<li class="py-1 d-block">Thu 09:00 am – 05:00 pm</li>
-						<li class="py-1 d-block">Fri 09:00 am – 05:00 pm</li>
-						<li class="py-1 d-block">Sat By Appointment</li>
-						<li class="py-1 d-block">Sun By Appointment</li>
-					</ul></center>
-					</div>
-				</div>
-				<div class="col-md">
-					<div class="ftco-footer-widget mb-4">
-						<center><h2 class="ftco-heading-2">Let's Connect</h2>
-						<div class="block-23 mb-3">
-						<ul>
-							<li><span class="icon icon-map-marker"></span><span class="text">G-7, FRIENDS ASHIYANA, OPP-HOME SCIENCE INSTITUTE, KHANDARI,AGRA-282002,UTTAR PRADESH</span></li>
-							<li><a href="#"><span class="icon icon-phone"></span><span class="text">+91-9897653646</span></a></li>
-							<li><a href="#"><span class="icon icon-envelope"></span><span class="text">	agarwalsatyendra@gmail.com</span></a></li>
-						</ul>
-						</div></center>
-					</div>
-				</div>
-				</div>
-				<div class="row">
-				<div class="col-md-12 text-center">
-		
-					<hr style="background-color:white; height:2px; width: 200px;">
-					<div style="display:flex; justify-content: center;">
-						<ul class="ftco-footer-social list-unstyled float-md-left float-lft " style="margin-bottom:0px;">
-						<li class="ftco-animate fadeInUp ftco-animated"><a href="#"><span class="icon-instagram"></span></a></li>
-						</ul></div>
-				</div>
+				<!-- Add Arrows -->
+				<div class="swiper-button-next swiper-button-white"></div>
+				<div class="swiper-button-prev swiper-button-white"></div>
+			</div>
+			<div class="swiper-container gallery-thumbs">
+				<div class="swiper-wrapper">
+					<div class="card swiper-slide" style="background-image:url(./images/products/bags/image2.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image3.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image4.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image5.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image6.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image7.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image8.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image9.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image10.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image11.jpeg)"></div>
+					<div class="card swiper-slide" style="background-image:url(./images/products/bags/image12.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image13.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image14.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image15.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image16.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image17.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image18.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image19.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image20.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image21.JPG)"></div>
+					<div class="card swiper-slide" style="background-image:url(./images/products/bags/image22.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image23.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image24.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image25.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image26.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image27.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image28.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image29.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image30.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image31.JPG)"></div>
+					<div class="card swiper-slide" style="background-image:url(./images/products/bags/image32.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image33.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image34.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image35.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image36.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image37.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image38.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image39.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image40.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image41.JPG)"></div>
+					<div class="card swiper-slide" style="background-image:url(./images/products/bags/image42.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image43.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image44.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image45.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image46.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image47.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image48.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image49.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image50.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image51.JPG)"></div>
+					<div class="card swiper-slide" style="background-image:url(./images/products/bags/image52.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image53.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image54.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image55.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image56.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image57.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image58.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image59.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image60.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image61.JPG)"></div>
+					<div class="card swiper-slide" style="background-image:url(./images/products/bags/image62.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image63.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image64.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image65.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image66.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image67.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image68.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image69.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image70.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image71.JPG)"></div>
+					<div class="card swiper-slide" style="background-image:url(./images/products/bags/image72.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image73.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image74.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image75.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image76.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image77.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image78.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image79.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image80.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image81.JPG)"></div>
+					<div class="card swiper-slide" style="background-image:url(./images/products/bags/image82.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image83.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image84.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image85.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image86.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image87.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image88.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image89.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image90.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image91.JPG)"></div>
+					<div class="card swiper-slide" style="background-image:url(./images/products/bags/image92.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image93.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image94.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image95.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image96.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image97.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image98.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image99.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image100.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image101.JPG)"></div>
+					<div class="card swiper-slide" style="background-image:url(./images/products/bags/image102.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image103.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image104.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image105.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image106.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image107.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image108.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image109.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image110.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image111.JPG)"></div>
+					<div class="card swiper-slide" style="background-image:url(./images/products/bags/image112.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image113.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image114.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image115.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image116.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image117.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image118.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image119.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image120.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image121.JPG)"></div>
+					<div class="card swiper-slide" style="background-image:url(./images/products/bags/image122.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image123.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image124.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image125.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image126.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image127.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image128.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image129.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image130.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image131.JPG)"></div>
+					<div class="card swiper-slide" style="background-image:url(./images/products/bags/image132.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image133.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image134.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image135.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image136.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image137.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image138.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image139.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image140.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image141.JPG)"></div>
+					<div class="card swiper-slide" style="background-image:url(./images/products/bags/image142.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image143.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image144.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image145.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image146.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image147.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image148.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image149.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image150.JPG)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/bags/image151.JPG)"></div>
+					<div class="card swiper-slide" style="background-image:url(./images/products/bags/image152.JPG)"></div>
+
 				</div>
 			</div>
-			</footer>
+			<div class="bottom-margin"></div>
+
+			<footer class="ftco-footer ftco-section">
+				<div class="container">
+					<div class="row mb-2">
+					<div class="col-md">
+						<div class="ftco-footer-widget mb-4">
+						<h2 class="ftco-heading-2 logo">SS HANDLOOMS</h2>
+						<p>BETTER YET, SEE US IN PERSON!
+							<br/>
+							When you pay us a visit, we present to you our entire catalog of designs and product ideas! Do give a call soon!
+						</p>
+						</div>
+					</div>
+					<div class="col-md">
+						<div class="ftco-footer-widget mb-4">
+							<h2 class="ftco-heading-2">Catch Us Live At <a href="https://ihgfdelhifair.in/" >I.H.G.F</a> <br/>13th July - 18th July 2020</h2>
+							<div class="block-23 mb-3">
+							<ul>
+								<li><a href=""><span class="icon icon-map-marker"></span><span class="text">Khandari,Agra</span></a></li>
+								<li><a href="tel:+91-98976-53646"><span class="icon icon-phone"></span><span class="text">+91-9897653646</span></a></li>
+								<li><a href="mailto: agarwalsatyendra@gmail.com"><span class="icon icon-envelope"></span><span class="text">	agarwalsatyendra@gmail.com</span></a></li>
+							</ul>
+							</div>
+						</div>
+					</div>
+					</div>
+					<div class="row">
+					<div class="col-md-12 text-center">
+			
+						<hr style="background-color:white; height:2px; width: 200px;">
+						<div style="display:flex; justify-content: center;">
+							<ul class="ftco-footer-social list-unstyled float-md-left float-lft " style="margin-bottom:0px;">
+							<li class="ftco-animate fadeInUp ftco-animated"><a href="https://instagram.com/ruggsbunny?igshid=g5ltp2zgkuh1"><span class="icon-instagram"></span></a></li>
+							</ul></div>
+					</div>
+					</div>
+				</div>
+				</footer>
     
-=======
-<footer class="ftco-footer ftco-section">
-		<div class="container">
-		  <div class="row mb-2">
-			<div class="col-md">
-			  <div class="ftco-footer-widget mb-4">
-				<h2 class="ftco-heading-2 logo">SS HANDLOOMS</h2>
-				<p>BETTER YET, SEE US IN PERSON!
-				  <br/>
-				  When you pay us a visit, we present to you our entire catalog of designs and product ideas! Do give a call soon!
-				</p>
-			  </div>
-			</div>
-			<div class="col-md">
-			  <div class="ftco-footer-widget mb-4">
-				  <h2 class="ftco-heading-2">Let's Connect</h2>
-				  <div class="block-23 mb-3">
-					<ul>
-					  <li><a href="https://goo.gl/maps/L6sAss1LcjYsQcLeA"><span class="icon icon-map-marker"></span><span class="text">G-7, FRIENDS ASHIYANA, OPP-HOME SCIENCE INSTITUTE, KHANDARI,AGRA-282002,UTTAR PRADESH</span></a></li>
-					  <li><a href="tel:+91-98976-53646"><span class="icon icon-phone"></span><span class="text">+91-9897653646</span></a></li>
-					  <li><a href="mailto: agarwalsatyendra@gmail.com"><span class="icon icon-envelope"></span><span class="text">	agarwalsatyendra@gmail.com</span></a></li>
-					</ul>
-				  </div>
-			  </div>
-			</div>
-		  </div>
-		  <div class="row">
-			<div class="col-md-12 text-center">
->>>>>>> 2eae5d18b5c349811a7906590c2734cc538f0b40
   
-			  <hr style="background-color:white; height:2px; width: 200px;">
-				<div style="display:flex; justify-content: center;">
-				  <ul class="ftco-footer-social list-unstyled float-md-left float-lft " style="margin-bottom:0px;">
-				  <li class="ftco-animate fadeInUp ftco-animated"><a href="https://instagram.com/ruggsbunny?igshid=g5ltp2zgkuh1"><span class="icon-instagram"></span></a></li>
-				  </ul></div>
-			</div>
-		  </div>
-		</div>
-	  </footer>
-	  
-	  
-	  
+
   <!-- loader -->
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
@@ -302,7 +504,32 @@
   <script src="js/scrollax.min.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
-  <script src="js/main.js"></script>
+	<script src="js/main.js"></script>
+	<script src="../package/swiper-bundle.min.js"></script>
+	<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <!-- Initialize Swiper -->
+  <script>
+		 var galleryThumbs = new Swiper('.gallery-thumbs', {
+      spaceBetween: 10,
+      slidesPerView: 4,
+      freeMode: true,
+      watchSlidesVisibility: true,
+      watchSlidesProgress: true,
+    });
+    var galleryTop = new Swiper('.gallery-top', {
+      spaceBetween: 10,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      thumbs: {
+        swiper: galleryThumbs
+      }
+    });
+		</script>
     
   </body>
 </html>

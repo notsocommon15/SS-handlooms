@@ -3,7 +3,7 @@
   <head>
     <title>SS Handlooms</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
     
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,600,700&display=swap" rel="stylesheet">
@@ -25,10 +25,73 @@
     
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
-    <link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/style.css">
+
+		 <!-- Link Swiper's CSS -->
+	
+		 <!-- Online Swiper CDN -->
+			 <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+		 <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+		<style>
+			html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+
+    .swiper-container {
+      width: 50%;
+      height: 500px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .swiper-slide {
+      background-size: cover;
+      background-position: center;
+    }
+
+    .gallery-top {
+      height: 700px;
+      width: 50%;
+    }
+
+    .gallery-thumbs {
+      height: 30%;
+      box-sizing: border-box;
+      padding: 10px 0;
+    }
+
+    .gallery-thumbs .swiper-slide {
+      width: 25%;
+      height: 100%;
+      opacity: 0.4;
+    }
+
+    .gallery-thumbs .swiper-slide-thumb-active {
+      opacity: 1;
+    }
+		.top-margin{
+			margin-top:100px; 
+		}
+		.bottom-margin{
+			margin-bottom: 100px;
+		}
+		@media only screen and (max-width: 600px){
+			.gallery-thumbs{
+				width:92%;
+			}
+			.gallery-top{
+				height:500px;
+				width:92%;
+			}
+		}
+		</style>
   </head>
   <body>
-	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
 	      <a class="navbar-brand" href="index.html">SS Handlooms</a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,13 +102,10 @@
 	        <ul class="navbar-nav ml-auto">
 	        	<li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
 	        	<li class="nav-item"><a href="services.html" class="nav-link">Products</a></li>
-<<<<<<< HEAD
 	        	<!--<li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>-->
 	        	<!-- <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
 	        	<li class="nav-item"><a href="blog.html" class="nav-link">Portfolio</a></li>
 	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li> -->
-=======
->>>>>>> 2eae5d18b5c349811a7906590c2734cc538f0b40
 	        </ul>
 	      </div>
 	    </div>
@@ -63,205 +123,174 @@
         </div>
       </div>
     </section>
-    
-    <section class="ftco-section ftco-no-pt ftco-no-pb">
-			<div class="container-fluid p-0">
-    		<div class="row no-gutters">
-    			<div class="col-md-6 col-lg-3 ftco-animate">
-    				<div class="project">
-	    				<img src="images/products/belt1.jpg" class="img-fluid" alt="Colorlib Template">
-	    				<div class="text">
-	    					<span>Stylist</span>
-	    					<h3><a href="project.html">Beard</a></h3>
-	    				</div>
-	    				<a href="images/products/belt1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-	    					<span class="icon-expand"></span>
-	    				</a>
-    				</div>
-    			</div>
-    			<div class="col-md-6 col-lg-3 ftco-animate">
-    				<div class="project">
-	    				<img src="images/products/belt1.jpg" class="img-fluid" alt="Colorlib Template">
-	    				<div class="text">
-	    					<span>Beauty</span>
-	    					<h3><a href="project.html">Haircut</a></h3>
-	    				</div>
-	    				<a href="images/products/belt1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-	    					<span class="icon-expand"></span>
-	    				</a>
-    				</div>
-    			</div>
-    			<div class="col-md-6 col-lg-3 ftco-animate">
-    				<div class="project">
-	    				<img src="images/products/belt1.jpg" class="img-fluid" alt="Colorlib Template">
-	    				<div class="text">
-	    					<span>Beauty</span>
-	    					<h3><a href="project.html">Hairstylist</a></h3>
-	    				</div>
-	    				<a href="images/products/belt1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-	    					<span class="icon-expand"></span>
-	    				</a>
-    				</div>
-    			</div>
-    			<div class="col-md-6 col-lg-3 ftco-animate">
-    				<div class="project">
-	    				<img src="images/products/belt1.jpg" class="img-fluid" alt="Colorlib Template">
-	    				<div class="text">
-	    					<span>Beauty</span>
-	    					<h3><a href="project.html">Haircut</a></h3>
-	    				</div>
-	    				<a href="images/products/belt1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-	    					<span class="icon-expand"></span>
-	    				</a>
-    				</div>
-    			</div>
-    			<div class="col-md-6 col-lg-3 ftco-animate">
-    				<div class="project">
-	    				<img src="images/products/belt1.jpg" class="img-fluid" alt="Colorlib Template">
-	    				<div class="text">
-	    					<span>Beauty</span>
-	    					<h3><a href="project.html">Makeup</a></h3>
-	    				</div>
-	    				<a href="images/products/belt1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-	    					<span class="icon-expand"></span>
-	    				</a>
-    				</div>
-    			</div>
-    			<div class="col-md-6 col-lg-3 ftco-animate">
-    				<div class="project">
-	    				<img src="images/products/belt1.jpg" class="img-fluid" alt="Colorlib Template">
-	    				<div class="text">
-	    					<span>Fashion</span>
-	    					<h3><a href="project.html">Model</a></h3>
-	    				</div>
-	    				<a href="images/products/belt1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-	    					<span class="icon-expand"></span>
-	    				</a>
-    				</div>
-    			</div>
-    			<div class="col-md-6 col-lg-3 ftco-animate">
-    				<div class="project">
-	    				<img src="images/products/belt1.jpg" class="img-fluid" alt="Colorlib Template">
-	    				<div class="text">
-	    					<span>Beauty</span>
-	    					<h3><a href="project.html">Makeup</a></h3>
-	    				</div>
-	    				<a href="images/work-7.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-	    					<span class="icon-expand"></span>
-	    				</a>
-    				</div>
-    			</div>
-    			<div class="col-md-6 col-lg-3 ftco-animate">
-    				<div class="project">
-	    				<img src="images/products/belt1.jpg" class="img-fluid" alt="Colorlib Template">
-	    				<div class="text">
-	    					<span>Beauty</span>
-	    					<h3><a href="project.html">Makeup</a></h3>
-	    				</div>
-	    				<a href="images/products/belt1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-	    					<span class="icon-expand"></span>
-	    				</a>
-    				</div>
-    			</div>
-    		</div>
-    	</div>
-</section>
 
+	
+		<div class="top-margin"></div>
+		<div class="swiper-container gallery-top ">
+				<div class="swiper-wrapper">
+					<div class="card swiper-slide" style="background-image:url(./images/products/crochet/image2.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/crochet/image3.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/crochet/image4.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/crochet/image5.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/crochet/image6.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/crochet/image7.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/crochet/image8.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/crochet/image9.png)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/crochet/image10.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/crochet/image11.jpeg)"></div>
+					<div class="card swiper-slide" style="background-image:url(./images/products/crochet/image12.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/crochet/image13.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/crochet/image14.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/crochet/image15.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/crochet/image16.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/crochet/image17.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/crochet/image18.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/crochet/image19.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/crochet/image20.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/crochet/image21.jpeg)"></div>
+					<div class="card swiper-slide" style="background-image:url(./images/products/crochet/image22.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/crochet/image23.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/crochet/image24.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/crochet/image25.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/crochet/image26.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/crochet/image27.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/crochet/image28.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/crochet/image29.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/crochet/image30.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/crochet/image31.jpeg)"></div>
+					<div class="card swiper-slide" style="background-image:url(./images/products/crochet/image32.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/crochet/image33.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/crochet/image34.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/crochet/image35.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/crochet/image36.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/crochet/image37.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/crochet/image38.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/crochet/image39.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/crochet/image40.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/crochet/image41.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/crochet/image42.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/crochet/image43.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/crochet/image44.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/crochet/image45.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/crochet/image46.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/crochet/image47.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/crochet/image48.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/crochet/image49.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/crochet/image50.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/crochet/image51.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/crochet/image52.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/crochet/image53.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/crochet/image54.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/crochet/image55.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/crochet/image56.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/crochet/image57.jpeg)"></div>
+					<div class="swiper-slide" style="background-image:url(./images/products/crochet/image58.jpeg)"></div>
+				</div>
+				<!-- Add Arrows -->
+				<div class="swiper-button-next swiper-button-white"></div>
+				<div class="swiper-button-prev swiper-button-white"></div>
+			</div>
+			<div class="swiper-container gallery-thumbs">
+				<div class="swiper-wrapper">
+								<div class="card swiper-slide" style="background-image:url(./images/products/crochet/image2.jpeg)"></div>
+								<div class="swiper-slide" style="background-image:url(./images/products/crochet/image3.jpeg)"></div>
+								<div class="swiper-slide" style="background-image:url(./images/products/crochet/image4.jpeg)"></div>
+								<div class="swiper-slide" style="background-image:url(./images/products/crochet/image5.jpeg)"></div>
+								<div class="swiper-slide" style="background-image:url(./images/products/crochet/image6.jpeg)"></div>
+								<div class="swiper-slide" style="background-image:url(./images/products/crochet/image7.jpeg)"></div>
+								<div class="swiper-slide" style="background-image:url(./images/products/crochet/image8.jpeg)"></div>
+								<div class="swiper-slide" style="background-image:url(./images/products/crochet/image9.png)"></div>
+								<div class="swiper-slide" style="background-image:url(./images/products/crochet/image10.jpeg)"></div>
+								<div class="swiper-slide" style="background-image:url(./images/products/crochet/image11.jpeg)"></div>
+								<div class="card swiper-slide" style="background-image:url(./images/products/crochet/image12.jpeg)"></div>
+								<div class="swiper-slide" style="background-image:url(./images/products/crochet/image13.jpeg)"></div>
+								<div class="swiper-slide" style="background-image:url(./images/products/crochet/image14.jpeg)"></div>
+								<div class="swiper-slide" style="background-image:url(./images/products/crochet/image15.jpeg)"></div>
+								<div class="swiper-slide" style="background-image:url(./images/products/crochet/image16.jpeg)"></div>
+								<div class="swiper-slide" style="background-image:url(./images/products/crochet/image17.jpeg)"></div>
+								<div class="swiper-slide" style="background-image:url(./images/products/crochet/image18.jpeg)"></div>
+								<div class="swiper-slide" style="background-image:url(./images/products/crochet/image19.jpeg)"></div>
+								<div class="swiper-slide" style="background-image:url(./images/products/crochet/image20.jpeg)"></div>
+								<div class="swiper-slide" style="background-image:url(./images/products/crochet/image21.jpeg)"></div>
+								<div class="card swiper-slide" style="background-image:url(./images/products/crochet/image22.jpeg)"></div>
+								<div class="swiper-slide" style="background-image:url(./images/products/crochet/image23.jpeg)"></div>
+								<div class="swiper-slide" style="background-image:url(./images/products/crochet/image24.jpeg)"></div>
+								<div class="swiper-slide" style="background-image:url(./images/products/crochet/image25.jpeg)"></div>
+								<div class="swiper-slide" style="background-image:url(./images/products/crochet/image26.jpeg)"></div>
+								<div class="swiper-slide" style="background-image:url(./images/products/crochet/image27.jpeg)"></div>
+								<div class="swiper-slide" style="background-image:url(./images/products/crochet/image28.jpeg)"></div>
+								<div class="swiper-slide" style="background-image:url(./images/products/crochet/image29.jpeg)"></div>
+								<div class="swiper-slide" style="background-image:url(./images/products/crochet/image30.jpeg)"></div>
+								<div class="swiper-slide" style="background-image:url(./images/products/crochet/image31.jpeg)"></div>
+								<div class="card swiper-slide" style="background-image:url(./images/products/crochet/image32.jpeg)"></div>
+								<div class="swiper-slide" style="background-image:url(./images/products/crochet/image33.jpeg)"></div>
+								<div class="swiper-slide" style="background-image:url(./images/products/crochet/image34.jpeg)"></div>
+								<div class="swiper-slide" style="background-image:url(./images/products/crochet/image35.jpeg)"></div>
+								<div class="swiper-slide" style="background-image:url(./images/products/crochet/image36.jpeg)"></div>
+								<div class="swiper-slide" style="background-image:url(./images/products/crochet/image37.jpeg)"></div>
+								<div class="swiper-slide" style="background-image:url(./images/products/crochet/image38.jpeg)"></div>
+								<div class="swiper-slide" style="background-image:url(./images/products/crochet/image39.jpeg)"></div>
+								<div class="swiper-slide" style="background-image:url(./images/products/crochet/image40.jpeg)"></div>
+								<div class="swiper-slide" style="background-image:url(./images/products/crochet/image41.jpeg)"></div>
+								<div class="swiper-slide" style="background-image:url(./images/products/crochet/image42.jpeg)"></div>
+								<div class="swiper-slide" style="background-image:url(./images/products/crochet/image43.jpeg)"></div>
+								<div class="swiper-slide" style="background-image:url(./images/products/crochet/image44.jpeg)"></div>
+								<div class="swiper-slide" style="background-image:url(./images/products/crochet/image45.jpeg)"></div>
+								<div class="swiper-slide" style="background-image:url(./images/products/crochet/image46.jpeg)"></div>
+								<div class="swiper-slide" style="background-image:url(./images/products/crochet/image47.jpeg)"></div>
+								<div class="swiper-slide" style="background-image:url(./images/products/crochet/image48.jpeg)"></div>
+								<div class="swiper-slide" style="background-image:url(./images/products/crochet/image49.jpeg)"></div>
+								<div class="swiper-slide" style="background-image:url(./images/products/crochet/image50.jpeg)"></div>
+								<div class="swiper-slide" style="background-image:url(./images/products/crochet/image51.jpeg)"></div>
+								<div class="swiper-slide" style="background-image:url(./images/products/crochet/image52.jpeg)"></div>
+								<div class="swiper-slide" style="background-image:url(./images/products/crochet/image53.jpeg)"></div>
+								<div class="swiper-slide" style="background-image:url(./images/products/crochet/image54.jpeg)"></div>
+								<div class="swiper-slide" style="background-image:url(./images/products/crochet/image55.jpeg)"></div>
+								<div class="swiper-slide" style="background-image:url(./images/products/crochet/image56.jpeg)"></div>
+								<div class="swiper-slide" style="background-image:url(./images/products/crochet/image57.jpeg)"></div>
+								<div class="swiper-slide" style="background-image:url(./images/products/crochet/image58.jpeg)"></div>
 
-<<<<<<< HEAD
-		<footer class="ftco-footer ftco-section">
-			<div class="container">
-			  <div class="row mb-3">
-				<div class="col-md">
-				  <div class="ftco-footer-widget mb-4">
-					<center><h2 class="ftco-heading-2 logo">SS HANDLOOMS</h2>
-					<p><b>BETTER YET, SEE US IN PERSON!</b>
-					  <br/>
-					  When you pay us a visit, we present to you our entire catalog of designs and product ideas! Do give a call soon!
-					</p>
-				  </div></center>
 				</div>
-				
-				<div class="col-md justify-content-center">
-				   <div class="ftco-footer-widget mb-4">
-					<center><h2 class="ftco-heading-2">Hours</h2>
-					<ul class="list-unstyled">
-					  <li class="py-1 d-block">
-						Mon 09:00 am – 05:00 pm
-					  </li>
-					  <li class="py-1 d-block">Tue 09:00 am – 05:00 pm</li>
-					  <li class="py-1 d-block">Wed 09:00 am – 05:00 pm</li>
-					  <li class="py-1 d-block">Thu 09:00 am – 05:00 pm</li>
-					  <li class="py-1 d-block">Fri 09:00 am – 05:00 pm</li>
-					  <li class="py-1 d-block">Sat By Appointment</li>
-					  <li class="py-1 d-block">Sun By Appointment</li>
-					</ul></center>
-				  </div>
+			</div>
+			<div class="bottom-margin"></div>
+
+			<footer class="ftco-footer ftco-section">
+				<div class="container">
+					<div class="row mb-2">
+					<div class="col-md">
+						<div class="ftco-footer-widget mb-4">
+						<h2 class="ftco-heading-2 logo">SS HANDLOOMS</h2>
+						<p>BETTER YET, SEE US IN PERSON!
+							<br/>
+							When you pay us a visit, we present to you our entire catalog of designs and product ideas! Do give a call soon!
+						</p>
+						</div>
+					</div>
+					<div class="col-md">
+						<div class="ftco-footer-widget mb-4">
+							<h2 class="ftco-heading-2">Catch Us Live At <a href="https://ihgfdelhifair.in/" >I.H.G.F</a> <br/>13th July - 18th July 2020</h2>
+							<div class="block-23 mb-3">
+							<ul>
+								<li><a href=""><span class="icon icon-map-marker"></span><span class="text">Khandari,Agra</span></a></li>
+								<li><a href="tel:+91-98976-53646"><span class="icon icon-phone"></span><span class="text">+91-9897653646</span></a></li>
+								<li><a href="mailto: agarwalsatyendra@gmail.com"><span class="icon icon-envelope"></span><span class="text">	agarwalsatyendra@gmail.com</span></a></li>
+							</ul>
+							</div>
+						</div>
+					</div>
+					</div>
+					<div class="row">
+					<div class="col-md-12 text-center">
+			
+						<hr style="background-color:white; height:2px; width: 200px;">
+						<div style="display:flex; justify-content: center;">
+							<ul class="ftco-footer-social list-unstyled float-md-left float-lft " style="margin-bottom:0px;">
+							<li class="ftco-animate fadeInUp ftco-animated"><a href="https://instagram.com/ruggsbunny?igshid=g5ltp2zgkuh1"><span class="icon-instagram"></span></a></li>
+							</ul></div>
+					</div>
+					</div>
 				</div>
-				<div class="col-md">
-				  <div class="ftco-footer-widget mb-4">
-					  <center><h2 class="ftco-heading-2">Let's Connect</h2>
-					  <div class="block-23 mb-3">
-						<ul>
-						  <li><span class="icon icon-map-marker"></span><span class="text">G-7, FRIENDS ASHIYANA, OPP-HOME SCIENCE INSTITUTE, KHANDARI,AGRA-282002,UTTAR PRADESH</span></li>
-						  <li><a href="#"><span class="icon icon-phone"></span><span class="text">+91-9897653646</span></a></li>
-						  <li><a href="#"><span class="icon icon-envelope"></span><span class="text">	agarwalsatyendra@gmail.com</span></a></li>
-						</ul>
-					  </div></center>
-				  </div>
-				</div>
-			  </div>
-			  <div class="row">
-				<div class="col-md-12 text-center">
-	  
-					<hr style="background-color:white; height:2px; width: 200px;">
-					<div style="display:flex; justify-content: center;">
-						<ul class="ftco-footer-social list-unstyled float-md-left float-lft " style="margin-bottom:0px;">
-						<li class="ftco-animate fadeInUp ftco-animated"><a href="#"><span class="icon-instagram"></span></a></li>
-						</ul></div>
-				</div>
-			  </div>
-			</div>
-		  </footer>
-=======
-<footer class="ftco-footer ftco-section">
-		<div class="container">
-		  <div class="row mb-2">
-			<div class="col-md">
-			  <div class="ftco-footer-widget mb-4">
-				<h2 class="ftco-heading-2 logo">SS HANDLOOMS</h2>
-				<p>BETTER YET, SEE US IN PERSON!
-				  <br/>
-				  When you pay us a visit, we present to you our entire catalog of designs and product ideas! Do give a call soon!
-				</p>
-			  </div>
-			</div>
-			<div class="col-md">
-			  <div class="ftco-footer-widget mb-4">
-				  <h2 class="ftco-heading-2">Let's Connect</h2>
-				  <div class="block-23 mb-3">
-					<ul>
-					  <li><a href="https://goo.gl/maps/L6sAss1LcjYsQcLeA"><span class="icon icon-map-marker"></span><span class="text">G-7, FRIENDS ASHIYANA, OPP-HOME SCIENCE INSTITUTE, KHANDARI,AGRA-282002,UTTAR PRADESH</span></a></li>
-					  <li><a href="tel:+91-98976-53646"><span class="icon icon-phone"></span><span class="text">+91-9897653646</span></a></li>
-					  <li><a href="mailto: agarwalsatyendra@gmail.com"><span class="icon icon-envelope"></span><span class="text">	agarwalsatyendra@gmail.com</span></a></li>
-					</ul>
-				  </div>
-			  </div>
-			</div>
-		  </div>
-		  <div class="row">
-			<div class="col-md-12 text-center">
-  
-			  <hr style="background-color:white; height:2px; width: 200px;">
-				<div style="display:flex; justify-content: center;">
-				  <ul class="ftco-footer-social list-unstyled float-md-left float-lft " style="margin-bottom:0px;">
-				  <li class="ftco-animate fadeInUp ftco-animated"><a href="https://instagram.com/ruggsbunny?igshid=g5ltp2zgkuh1"><span class="icon-instagram"></span></a></li>
-				  </ul></div>
-			</div>
-		  </div>
-		</div>
-</footer>
->>>>>>> 2eae5d18b5c349811a7906590c2734cc538f0b40
+				</footer>
     
   
 
@@ -285,7 +314,32 @@
   <script src="js/scrollax.min.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
-  <script src="js/main.js"></script>
+	<script src="js/main.js"></script>
+	<script src="../package/swiper-bundle.min.js"></script>
+	<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <!-- Initialize Swiper -->
+  <script>
+		 var galleryThumbs = new Swiper('.gallery-thumbs', {
+      spaceBetween: 10,
+      slidesPerView: 4,
+      freeMode: true,
+      watchSlidesVisibility: true,
+      watchSlidesProgress: true,
+    });
+    var galleryTop = new Swiper('.gallery-top', {
+      spaceBetween: 10,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      thumbs: {
+        swiper: galleryThumbs
+      }
+    });
+		</script>
     
   </body>
 </html>
